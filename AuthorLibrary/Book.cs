@@ -95,5 +95,14 @@ namespace AuthorLibrary
             return "Книга: " + name + ", Жанр: " + bookType + ", " + author.ToString();
         }
 
+        /// <summary>
+        /// Cеттер для поля bookType
+        /// </summary>
+        /// <param name="bookType">жанр книги</param>
+        public void SetBookType(string bookType)
+        {
+            this.bookType = bookType;
+        }
+
     }
 }
