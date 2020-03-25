@@ -1,0 +1,6 @@
+[submodule "AuthorLibrary/calc/simple_calc"]
+	path = AuthorLibrary/calc/simple_calc
+	url = https://github.com/petrediana/Calculator.git
+[submodule "AuthorLibrary/currency/simple_currency"]
+	path = AuthorLibrary/currency/simple_currency
+	url = https://github.com/mehmetbuber/currency-converter-api.git
