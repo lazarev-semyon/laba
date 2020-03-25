@@ -27,6 +27,14 @@ namespace AuthorLibrary
         }
 
         /// <summary>
+        /// Cеттер для поля name
+        /// </summary>
+        public void SetName(string name)
+        {
+            this.name = name;
+        }
+
+        /// <summary>
         /// Геттер для поля name
         /// </summary>
         /// <returns>возвращает название книги</returns>
@@ -42,6 +50,14 @@ namespace AuthorLibrary
         public string GetBookType()
         {
             return bookType;
+        }
+
+        /// <summary>
+        /// Cеттер для поля author
+        /// </summary>
+        public void SetAuthor(Author author)
+        {
+            this.author = author;
         }
 
         /// <summary>
